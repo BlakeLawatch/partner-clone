@@ -1,0 +1,49 @@
+.navWordSpacing {
+  word-spacing: 15px;
+}
+
+.boxes {
+  height: 125px;
+  box-shadow: 0px 0px 3px black;
+}
+
+.boxes-long {
+  height: 160px;
+}
+
+.box-row {
+  bottom: 5%;
+  position: absolute;
+}
+
+.bg-color {
+  background-color: #ad83cf;
+}
+
+.large-padding-top {
+  padding-top: 100px;
+}
+
+.pic-size {
+  max-height: 100vh;
+}
+
+.youtube-size {
+  /* NOTE width max the video fill the width of the element it is in, while aspect ratio keeps it formattd into a standard video size. the video should resize based on width.*/
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+
+
+
+
+
+
+
+/* keep at bottom */
+
+@media(max-width: 767px) {
+  .box-row {
+    position: static;
+  }
+}
